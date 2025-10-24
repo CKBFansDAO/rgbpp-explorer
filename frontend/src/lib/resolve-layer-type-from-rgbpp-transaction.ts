@@ -20,7 +20,7 @@ export function resolveLayerTypeFromRGBppTransaction<
     case 'within':
       return 'l1'
     default:
-      // if (tx.network==='ckb' && !tx.direction) return 'l2'
+      if (tx.network==='ckb' && !tx.direction) return 'l2'
       return 'l1'
   }
 }

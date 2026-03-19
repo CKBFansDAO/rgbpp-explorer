@@ -23,7 +23,7 @@
 NEXT_PUBLIC_ENABLE_PROXY=true
 
 # 目标API URL
-NEXT_PUBLIC_TRPC_API_URL=https://web3-api-testnet.magickbase.com/api/trpc
+NEXT_PUBLIC_TRPC_API_URL=https://web3-api.magickbase.com/api/trpc
 
 # 缓存开关 (true/false 或 1/0)
 NEXT_PUBLIC_ENABLE_CACHE=true
@@ -50,7 +50,7 @@ NEXT_PUBLIC_CACHE_TTL=300
 ### 默认目标
 如果环境变量未设置，默认使用：
 ```
-https://web3-api-testnet.magickbase.com/api/trpc
+https://web3-api.magickbase.com/api/trpc
 ```
 
 ## API结构
@@ -181,7 +181,7 @@ GET /api/proxy/health
 ```json
 {
   "status": "healthy",
-  "target": "https://web3-api-testnet.magickbase.com/api/trpc",
+  "target": "https://web3-api.magickbase.com/api/trpc",
   "responseStatus": 200,
   "proxyEndpoint": "/api/proxy"
 }
@@ -198,7 +198,7 @@ GET /api/proxy/test
   "status": "test_completed",
   "health": { ... },
   "testRequest": { ... },
-  "targetUrl": "https://web3-api-testnet.magickbase.com/api/trpc",
+  "targetUrl": "https://web3-api.magickbase.com/api/trpc",
   "proxyEndpoint": "/api/proxy",
   "timestamp": "2024-01-05T10:30:00Z"
 }
@@ -259,13 +259,13 @@ GET /api/proxy/status
     "testEndpoint": "/api/proxy/test"
   },
   "target": {
-    "url": "https://web3-api-testnet.magickbase.com/api/trpc",
+    "url": "https://web3-api.magickbase.com/api/trpc",
     "status": "reachable",
     "response": { "status": 200, "ok": true }
   },
   "environment": {
     "NEXT_PUBLIC_ENABLE_PROXY": "true",
-    "NEXT_PUBLIC_TRPC_API_URL": "https://web3-api-testnet.magickbase.com/api/trpc"
+    "NEXT_PUBLIC_TRPC_API_URL": "https://web3-api.magickbase.com/api/trpc"
   },
   "configuration": {
     "currentMode": "proxy",

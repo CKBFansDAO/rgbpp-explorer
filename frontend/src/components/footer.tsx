@@ -118,12 +118,6 @@ export function Footer({ lang }: { lang: string }) {
                 <Link href={env.public.CKB_URL} _hover={{ textDecoration: 'underline' }}>
                   {t(i18n)`Nervos CKB`}
                 </Link>
-                <Link href={`https://ckbeco.fund/`} _hover={{ textDecoration: 'underline' }}>
-                  {t(i18n)`CKB Eco Fund`}
-                </Link>
-                <Link href={env.public.UTXO_STACK_URL} _hover={{ textDecoration: 'underline' }}>
-                  {t(i18n)`UTXO Stack`}
-                </Link>
               </VStack>
             </VStack>
           </HStack>

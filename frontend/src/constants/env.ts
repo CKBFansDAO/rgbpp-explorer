@@ -24,13 +24,13 @@ const publicEnvSchema = z.object({
   CKB_DEV_REL_TWITTER_URL: z.string().default('https://x.com/CKBDevrel'),
   RGBPP_ORG_GITHUB_URL: z.string().default('https://github.com/RGBPlusPlus'),
   NERVOS_NETWORK_MEDIUM_URL: z.string().default('https://medium.com/@nervosnetwork'),
-  RGBPP_EXPLORER_TESTNET_URL: z.string().default('https://testnet.explorer.rgbpp.io'),
-  RGBPP_EXPLORER_MAINNET_URL: z.string().default('https://explorer.rgbpp.io'),
-  RGBPP_DOMAINS: z.string().default('explorer.rgbpp.io,testnet.explorer.rgbpp.io'),
+  RGBPP_EXPLORER_TESTNET_URL: z.string().default('https://testnet.explorer.rgbpp.com'),
+  RGBPP_EXPLORER_MAINNET_URL: z.string().default('https://explorer.rgbpp.com'),
+  RGBPP_DOMAINS: z.string().default('explorer.rgbpp.com,testnet.explorer.rgbpp.com'),
 })
 
 const sharedEnvSchema = z.object({
-  RGBPP_EXPLORER_API_URL: z.string().default('https://testnet-api.explorer.rgbpp.io/graphql'),
+  RGBPP_EXPLORER_API_URL: z.string().default('https://testnet-api.explorer.rgbpp.com/graphql'),
   GA_ID: z.string().optional(),
 })
 

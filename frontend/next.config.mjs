@@ -28,7 +28,7 @@ const nextConfig = {
           {
             key: 'Content-Security-Policy',
             value:
-              "default-src 'self' https://*.rgbpp.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.vercel.live https://*.vercel.app https://*.magickbase.com https://*.rgbpp.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data: https:; connect-src 'self' https://*.magickbase.com https://explorer.rgbpp.io https://vercel.live https://*.vercel.app wss://*.vercel.app https://*.rgbpp.io/* wss://*.rgbpp.io/* https://mainnet-api.explorer.nervos.org; frame-src 'self' https://www.google.com https://vercel.live; worker-src 'self' blob:; base-uri 'self'; form-action 'self';",
+              "default-src 'self' https://*.rgbpp.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.vercel.live https://*.vercel.app https://*.magickbase.com https://*.rgbpp.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data: https:; connect-src 'self' https://*.magickbase.com https://explorer.rgbpp.com https://vercel.live https://*.vercel.app wss://*.vercel.app https://*.rgbpp.com/* wss://*.rgbpp.com/* https://mainnet-api.explorer.nervos.org; frame-src 'self' https://www.google.com https://vercel.live; worker-src 'self' blob:; base-uri 'self'; form-action 'self';",
           },
         ],
       },

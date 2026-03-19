@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 
 // 获取目标API URL
 const getTargetUrl = () => {
-  const baseUrl = process.env.NEXT_PUBLIC_TRPC_API_URL || 'https://web3-api-testnet.magickbase.com/api/trpc'
+  const baseUrl = process.env.NEXT_PUBLIC_TRPC_API_URL || 'https://web3-api.magickbase.com/api/trpc'
   return baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl
 }
 

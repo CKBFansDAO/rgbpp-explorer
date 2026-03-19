@@ -16,7 +16,7 @@ const getTrpcUrl = () => {
     return '/api/proxy'
   } else {
     console.log('Using direct tRPC URL')
-    return process.env.NEXT_PUBLIC_TRPC_API_URL || 'https://web3-api-testnet.magickbase.com/api/trpc/'
+    return process.env.NEXT_PUBLIC_TRPC_API_URL || 'https://web3-api.magickbase.com/api/trpc/'
   }
 }
 
